@@ -18,12 +18,12 @@
     "rounds": [
         {
             "round": 1,
-            "base_card": 5,
+            "base_card": 11,
             "player_choice": "High",
-            "result_card": 9,
-            "bet": 10,
-            "outcome": "win",
-            "chips_after": 110,
+            "result_card": 5,
+            "bet": 50,
+            "outcome": "Win",
+            "chips_after": 150,
             "remaining_deck": [
                 1,
                 2,
@@ -32,20 +32,20 @@
                 6,
                 7,
                 8,
+                9,
                 10,
-                11,
                 12,
                 13
             ]
         },
         {
             "round": 2,
-            "base_card": 12,
+            "base_card": 8,
             "player_choice": "Low",
-            "result_card": 13,
-            "bet": 20,
-            "outcome": "win",
-            "chips_after": 90,
+            "result_card": 9,
+            "bet": 70,
+            "outcome": "Win",
+            "chips_after": 220,
             "remaining_deck": [
                 1,
                 2,
@@ -53,27 +53,27 @@
                 4,
                 6,
                 7,
-                8,
                 10,
-                11
+                12,
+                13
             ]
         },
         {
             "round": 3,
-            "base_card": 2,
+            "base_card": 10,
             "player_choice": "Low",
-            "result_card": 1,
-            "bet": 30,
-            "outcome": "lose",
-            "chips_after": 120,
+            "result_card": 12,
+            "bet": 150,
+            "outcome": "Lose",
+            "chips_after": 70,
             "remaining_deck": [
+                1,
+                2,
                 3,
                 4,
                 6,
                 7,
-                8,
-                10,
-                11
+                13
             ]
         }
     ],
