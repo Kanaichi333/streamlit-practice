@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"\u306f\u3058\u3081\u306b","text":""},{"location":"about/","title":"About","text":"<p>\u3053\u306e\u30a2\u30d7\u30ea\u306f\u30ab\u30fc\u30c9\u30b2\u30fc\u30e0\u3092\u904a\u3076\u305f\u3081\u306e\u3082\u306e\u3067\u3059\u3002</p>"},{"location":"how_to_use/high_and_low/","title":"High and Low","text":""}]}
