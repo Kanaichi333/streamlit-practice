@@ -2,7 +2,7 @@
 Streamlitの練習用
 このアプリはカードゲームを遊ぶためのものです。
 
-[website](https://kanaichi333-cards-games-app-20250922.streamlit.app/High_and_Low_2)
+[High and Low Game!](https://kanaichi333-cards-games-app-20250922.streamlit.app/High_and_Low_2)
 
 
 ## インストール
