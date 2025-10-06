@@ -5,4 +5,4 @@ Webアプリ開発の練習として、簡単なカードゲームを実装し�
 
 ### カードゲームはこちら↓
 
-[Cards Games App](https://kanaichi333-cards-games-app-20250922.streamlit.app)
+[Cards Games App](https://kanaichi333-cards-games-app.streamlit.app)

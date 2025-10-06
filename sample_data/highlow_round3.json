@@ -21,9 +21,9 @@
             "base_card": 8,
             "player_choice": "High",
             "result_card": 5,
-            "bet": 45,
+            "bet": 1,
             "outcome": "Lose",
-            "chips_after": 55,
+            "chips_after": 100,
             "remaining_deck": [
                 1,
                 2,
