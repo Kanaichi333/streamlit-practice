@@ -18,12 +18,12 @@
     "rounds": [
         {
             "round": 1,
-            "base_card": 11,
+            "base_card": 8,
             "player_choice": "High",
             "result_card": 5,
-            "bet": 50,
-            "outcome": "Win",
-            "chips_after": 150,
+            "bet": 45,
+            "outcome": "Lose",
+            "chips_after": 55,
             "remaining_deck": [
                 1,
                 2,
@@ -31,9 +31,9 @@
                 4,
                 6,
                 7,
-                8,
                 9,
                 10,
+                11,
                 12,
                 13
             ]
@@ -43,9 +43,9 @@
             "base_card": 8,
             "player_choice": "Low",
             "result_card": 9,
-            "bet": 70,
+            "bet": 1,
             "outcome": "Win",
-            "chips_after": 220,
+            "chips_after": 55,
             "remaining_deck": [
                 1,
                 2,

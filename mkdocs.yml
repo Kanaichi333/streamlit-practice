@@ -4,7 +4,6 @@ theme:
   name: material
 nav:
   - Home: index.md
-  - About: about.md
   - High and Low: how_to_use/high_and_low.md
 repo_url: https://github.com/Kanaichi333/streamlit-practice
 extra:

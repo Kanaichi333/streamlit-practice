@@ -6,6 +6,11 @@ import streamlit as st
 from model import high_and_low
 
 
+with st.sidebar:
+    st.page_link("cards_games_app.py", label="Home", icon="🏠")
+    st.page_link("pages/High_and_Low.py", label="High and Low", icon="🪙")
+
+
 st.title(":streamlit: High and Low Game!")
 st.write("所持金を賭けて High か Low かを当てるゲーム")
 
