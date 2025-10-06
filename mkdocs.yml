@@ -1,27 +1,31 @@
 site_name: Cards Games App
 site_url: https://Kanaichi333.github.io/streamlit-practice/
+repo_url: https://github.com/Kanaichi333/streamlit-practice
 
 theme:
   name: material
+  language: ja
   palette: 
-
     # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-        
+
 nav:
   - Home: index.md
   - High and Low: how_to_use/high_and_low.md
   - Links: links.md
-repo_url: https://github.com/Kanaichi333/streamlit-practice
+
 extra:
   version:
     provider: mike
+  search:
+    language: "jp"
