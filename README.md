@@ -1,8 +1,9 @@
 # streamlit-practice
-Streamlitの練習用
-このアプリはカードゲームを遊ぶためのものです。
 
-[High and Low Game!](https://kanaichi333-cards-games-app-20250922.streamlit.app/High_and_Low_2)
+Webアプリ開発の練習として、簡単なカードゲームを実装しています。  
+カードゲームは順次、追加していく予定です。
+
+[Cards Games App](https://kanaichi333-cards-games-app.streamlit.app)
 
 
 ## インストール
