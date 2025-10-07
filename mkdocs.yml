@@ -22,6 +22,7 @@ theme:
 nav:
   - Home: index.md
   - High and Low: how_to_use/high_and_low.md
+  - 百人一首: how_to_use/hyakunin_isshu.md
   - Links: links.md
 
 extra:

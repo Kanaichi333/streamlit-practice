@@ -19,3 +19,10 @@ with st.container(border=True):
     st.write("勝負は3ラウンド")
 
     st.page_link("pages/01_High_and_Low.py", label="🔥こちらからプレイ🔥")
+
+
+with st.container(border=True):
+    st.subheader("百人一首")
+    st.write("百人一首を暗記しよう")
+
+    st.page_link("pages/02_Hyakunin_Isshu.py", label="🌊こちらからプレイ🗻")
