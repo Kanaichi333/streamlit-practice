@@ -12,9 +12,12 @@ st.set_page_config(page_title="百人一首")
 st.title(":streamlit: 百人一首")
 st.write("百人一首を暗記しよう")
 
-json1 = Path(__file__).parent.parent / "sample_data" / "hyakunin_isshu_rounds.json"
-with open(json1, "r", encoding="utf-8") as f:
-    data = json.load(f)
+
+if "data" not in st.session_state:
+    json1 = Path(__file__).parent.parent / "sample_data" / "hyakunin_isshu_rounds.json"
+    with open(json1, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    st.session_state["data"] = data
 
 if "start" not in st.session_state:
     st.session_state["start"] = 0
@@ -48,6 +51,8 @@ def reset():
     st.session_state["random"] = 0
     st.session_state["choose"] = 0
 
+
+data = st.session_state["data"]
 
 if st.session_state["start"] == 0:
     st.subheader("コース選択")
@@ -134,7 +139,3 @@ else:
 
         else:
             st.button("次へ", on_click=next_uta, type="primary", width="stretch")
-
-
-with open(json1, "w") as f:
-    json.dump(data, f, indent=4)
