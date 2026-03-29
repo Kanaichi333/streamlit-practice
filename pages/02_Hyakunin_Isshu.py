@@ -13,11 +13,11 @@ st.title(":streamlit: 百人一首")
 st.write("百人一首を暗記しよう")
 
 
-if "data" not in st.session_state:
+if "data2" not in st.session_state:
     json1 = Path(__file__).parent.parent / "sample_data" / "hyakunin_isshu_rounds.json"
     with open(json1, "r", encoding="utf-8") as f:
         data = json.load(f)
-    st.session_state["data"] = data
+    st.session_state["data2"] = data
 
 if "start" not in st.session_state:
     st.session_state["start"] = 0
@@ -52,7 +52,7 @@ def reset():
     st.session_state["choose"] = 0
 
 
-data = st.session_state["data"]
+data = st.session_state["data2"]
 
 if st.session_state["start"] == 0:
     st.subheader("コース選択")
