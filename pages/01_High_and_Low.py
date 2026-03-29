@@ -12,9 +12,11 @@ st.title(":streamlit: High and Low Game!")
 st.write("所持金を賭けて High か Low かを当てるゲーム")
 
 
-json_path = Path(__file__).parent.parent / "sample_data" / "highlow_round3.json"
-with open(json_path, "r", encoding="utf-8") as f:
-    data = json.load(f)
+if "data" not in st.session_state:
+    json_path = Path(__file__).parent.parent / "sample_data" / "highlow_round3.json"
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    st.session_state["data"] = data
 
 if "i" not in st.session_state:
     st.session_state["i"] = 0
@@ -34,6 +36,8 @@ def next_round():
     st.session_state["card"] = 0
     st.session_state["judge"] = 0
 
+
+data = st.session_state["data"]
 
 round_i = data["rounds"][st.session_state["i"]]
 st.header(f"Round {round_i["round"]}")
@@ -170,7 +174,3 @@ if st.session_state["finish"] != 0:
                     st.subheader(":tada:")
                 elif outcome == "Lose":
                     st.subheader(":money_with_wings:")
-
-
-with open(json_path, "w") as f:
-    json.dump(data, f, indent=4)
